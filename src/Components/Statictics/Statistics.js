@@ -22,7 +22,7 @@ class Statistics extends Component {
             <span>Total: {total}</span>
           </Item>
           <Item>
-            <span>Positive feedback: {positivePercentage}</span>
+            <span>Positive feedback: {positivePercentage}%</span>
           </Item>
         </ul>
       </div>

@@ -45,7 +45,7 @@ render() {
 		const objKey = Object.keys(this.state);
 		return (
 			<Wrap>
-				<Section title="Please leave feedback">
+				<Section title="Please leave feedback:">
 					<FeedbackOptions options={objKey} onLeaveFeedback={this.onLeaveFeedback} />
 				</Section>
 
